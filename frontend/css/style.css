@@ -25,7 +25,7 @@
 
 body {
   /*background-color: var(--bg-color);*/
-  background-image:"images/slider/0.gif";
+  background-image:url("images/slider/0.gif)";
   display: flex;
   flex-flow: column;
   height: 100vh;
