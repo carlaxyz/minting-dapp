@@ -24,9 +24,10 @@
 }
 
 body {
-  background-image:url('/images/slider/0.gif'); background-repeat:repeat;
+  background-image:url('/images/slider/0.gif'); background-repeat:no-repeat;
   /*background-color: var(--bg-color);*/
   display: flex;
+  background-size: cover;
   flex-flow: column;
   height: 100vh;
   color: var(--font-color);
