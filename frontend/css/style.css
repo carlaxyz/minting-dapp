@@ -74,7 +74,7 @@ header .container {
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
   background-color: var(--bg-color);
-  background-opacity: 0.6;
+  background: rgba(255, 0, 0, 0.9);
   border-radius: 25px;
   table-layout: fixed;
 }
