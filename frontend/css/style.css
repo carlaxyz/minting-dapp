@@ -69,14 +69,13 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0;
+  margin: 0, 3px, 0, 3px;
   opacity: 1;
   transform: translateY(10vh);
   transition: all 1s ease-in-out;
   background-color: var(--bg-color);
   background: rgba(255, 0, 0, 0.9);
   border-radius: 25px;
-  margin: 0px 10px 0px 10px; 
   table-layout: fixed;
 }
 
