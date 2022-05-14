@@ -30,6 +30,7 @@ body {
   background-size: cover;
   flex-flow: column;
   height: 100%;
+  background-position: center;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
