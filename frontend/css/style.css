@@ -71,7 +71,6 @@ header .container {
   text-align: center;
   margin: 0, 10px, 0, 10px;
   opacity: 1;
-  padding: 0,10px,0,10px;
   transform: translateY(10vh);
   transition: all 1s ease-in-out;
   background-color: var(--bg-color);
