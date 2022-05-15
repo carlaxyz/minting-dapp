@@ -69,7 +69,7 @@ header .container {
   align-items: center;
   /*height: 100%;*/
   text-align: center;
-  opacity: 0.6;
+  opacity: 0;
   transform: translateY(40%);
   transition: transform 1s ease-in-out;
   background-color: var(--bg-color);
