@@ -71,7 +71,7 @@ header .container {
   text-align: center;
   opacity: 0;
   transform: translateY(40%);
-  transition: transform 1s ease-in-out;
+  transition: all 1s ease-in-out;
   background-color: var(--bg-color);
   background: rgba(255, 0, 0, 0.9);
   border-radius: 25px;
