@@ -76,7 +76,7 @@ header .container {
   background-color: var(--bg-color);
   background: rgba(255, 0, 0, 0.9);
   border-radius: 25px;
-  table-layout: auto;
+  table-layout: fixed; width: 95%;
 }
 
 .show-not-connected {
