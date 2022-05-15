@@ -75,6 +75,7 @@ header .container {
   background-color: var(--bg-color);
   background: rgba(255, 0, 0, 0.9);
   border-radius: 25px;
+  justify-content: center
   table-layout: fixed; width: 95%;
 }
 
