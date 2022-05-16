@@ -111,7 +111,7 @@ header .container {
   align-items: center;
   /*height: 100%;*/
   text-align: center;
-  opacity: 0;
+  opacity: 1;
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   background-color: var(--bg-color);
