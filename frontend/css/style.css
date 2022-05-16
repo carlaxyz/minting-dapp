@@ -107,6 +107,48 @@ header .container {
   font-weight: bold;
 }
 
+.section2 {
+  align-items: center;
+  /*height: 100%;*/
+  text-align: center;
+  opacity: 0;
+  /*transform: translateY(40%);*/
+  transition: all 1s ease-in-out;
+  background-color: var(--bg-color);
+  background: rgba(255, 0, 0, 0.9);
+  /*border-radius: 25px;*/
+  max-width: 100%;/*900px;*/
+  justify-content: center;
+  /*display: flex;*/
+  /*table-layout: fixed; width: 95%;*/
+}
+
+.show-section2 {
+  opacity: 1;
+  /*transform: translateY(50%);*/
+}
+
+.section2 h1 {
+  text-shadow: 2px 2px 0 var(--accent-color);
+  font-style: italic;
+  margin: 2rem 0;
+  font-size: 2.8rem;
+}
+
+.section2 p {
+  font-size: 1.1rem;
+  font-family: var(--font-secondary);
+  line-height: 1.0;
+}
+
+.section2 a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+
 /* BUTTONS */
 
 .btn {
