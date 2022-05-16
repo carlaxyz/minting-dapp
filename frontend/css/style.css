@@ -111,7 +111,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  opacity: 1;
+  opacity: 0;
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   background-color: var(--bg-color);
@@ -119,7 +119,7 @@ header .container {
   /*border-radius: 25px;*/
   max-width: 100%;/*900px;*/
   justify-content: center;
-  /*display: flex;*/
+  display: flex;
   table-layout: fixed; width: 100%;
 }
 
