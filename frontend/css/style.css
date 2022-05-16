@@ -78,7 +78,7 @@ header .container {
   /*border-radius: 25px;*/
   max-width: 100%;/*900px;*/
   justify-content: center;
-  display: flex;
+  /*display: flex;*/
   /*table-layout: fixed; width: 95%;*/
 }
 
