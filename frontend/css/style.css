@@ -71,6 +71,7 @@ header .container {
   /*height: 100%;*/
   text-align: center;
   opacity: 0;
+  padding: 5%;
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   background-color: var(--bg-color);
@@ -108,17 +109,18 @@ header .container {
 }
 
 .section2 {
-  align-items: center;
+  align-items: start;
   height: 100%;
   text-align: center;
   opacity: 0;
+  padding: 5%;
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   transition-delay: 0.5s;
   background: rgba(240, 76, 76, 0.9);
   /*border-radius: 25px;*/
   max-width: 100%;/*900px;*/
-  justify-content: center;
+  justify-content: left;
   display: flex;
   table-layout: fixed; width: 100%;
 }
@@ -147,6 +149,8 @@ header .container {
   font-size: 0.8rem;
   font-weight: bold;
 }
+
+
 
 
 /* BUTTONS */
