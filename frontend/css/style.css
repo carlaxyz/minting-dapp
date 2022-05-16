@@ -115,7 +115,7 @@ header .container {
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   transition-delay: 0.5s;
-  background-color: var(--bg-color);
+  background-color:#f86969;
   background: rgba(255, 0, 0, 0.9);
   /*border-radius: 25px;*/
   max-width: 100%;/*900px;*/
