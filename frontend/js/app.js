@@ -52,6 +52,10 @@ const updateConnectStatus = async () => {
   const notConnected = document.querySelector('.not-connected');
   const section2 = document.querySelector('.section2');
   const spinner = document.getElementById("spinner");
+
+  notConnected.classList.add('show-not-connected');
+  section2.classList.add('show-section2');
+
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
     onboardButton.onclick = () => {
