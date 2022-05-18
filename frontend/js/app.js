@@ -46,11 +46,16 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
+
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
   const notConnected = document.querySelector('.not-connected');
+  const section2 = document.querySelector('.section2');
   const spinner = document.getElementById("spinner");
+
+
+
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
     onboardButton.onclick = () => {
@@ -61,6 +66,7 @@ const updateConnectStatus = async () => {
       spinner.classList.add('hidden');
       notConnected.classList.remove('hidden');
       notConnected.classList.add('show-not-connected');
+      section2.classList.add('show-section2');
     };
   } else if (accounts && accounts.length > 0) {
     onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
@@ -69,6 +75,7 @@ const updateConnectStatus = async () => {
     onboarding.stopOnboarding();
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
+    section2.classList.add('hidden');
     // SHOW SPINNER
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
@@ -79,6 +86,7 @@ const updateConnectStatus = async () => {
     spinner.classList.add('hidden');
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
+    section2.classList.add('show-section2');
     onboardButton.onclick = async () => {
       await window.ethereum
         .request({
@@ -88,6 +96,7 @@ const updateConnectStatus = async () => {
           onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
+          section2.classList.add('hidden');
           // SHOW SPINNER
           spinner.classList.remove('hidden');
           onboardButton.disabled = true;
