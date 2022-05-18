@@ -46,8 +46,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-notConnected.classList.add('show-not-connected');
-section2.classList.add('show-section2');
 
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
