@@ -42,6 +42,11 @@ window.addEventListener("DOMContentLoaded", async () => {
     window.ethereum.on("accountsChanged", (newAccounts) => {
       accounts = newAccounts;
       updateConnectStatus();
+      const onboarding = new MetaMaskOnboarding();
+      const onboardButton = document.getElementById("connectWallet");
+      const notConnected = document.querySelector('.not-connected');
+      const section2 = document.querySelector('.section2');
+      const spinner = document.getElementById("spinner");
       notConnected.classList.add('show-not-connected');
       section2.classList.add('show-section2');
     });
