@@ -46,6 +46,9 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
+notConnected.classList.add('show-not-connected');
+section2.classList.add('show-section2');
+
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
   const onboardButton = document.getElementById("connectWallet");
@@ -53,8 +56,7 @@ const updateConnectStatus = async () => {
   const section2 = document.querySelector('.section2');
   const spinner = document.getElementById("spinner");
 
-  notConnected.classList.add('show-not-connected');
-  section2.classList.add('show-section2');
+
 
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
