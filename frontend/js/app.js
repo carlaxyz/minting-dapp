@@ -42,6 +42,8 @@ window.addEventListener("DOMContentLoaded", async () => {
     window.ethereum.on("accountsChanged", (newAccounts) => {
       accounts = newAccounts;
       updateConnectStatus();
+      notConnected.classList.add('show-not-connected');
+      section2.classList.add('show-section2');
     });
   }
 });
