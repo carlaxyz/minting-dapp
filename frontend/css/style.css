@@ -572,6 +572,8 @@ section {
   top: 90px;
   left: 5rem;
   z-index: -1;
+  display:none;
+  
 }
 
 .splide__slide {
