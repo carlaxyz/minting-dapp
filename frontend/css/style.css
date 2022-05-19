@@ -49,6 +49,13 @@ img{
   max-height: 100%;
 }
 
+
+.leftposition {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+
 .container {
   display: flex;
   flex-direction: column;
