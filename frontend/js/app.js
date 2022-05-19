@@ -63,6 +63,10 @@ const updateConnectStatus = async () => {
       spinner.classList.add('hidden');
       notConnected.classList.add('show-not-connected');
       section2.classList.add('show-section2');
+      section3.classList.add('show-section3');
+      section4.classList.add('show-section4');
+      section5.classList.add('show-section5');
+      section6.classList.add('show-section6');
 
     onboardButton.onclick = () => {
       onboardButton.innerText = "Connecting...";
@@ -75,6 +79,11 @@ const updateConnectStatus = async () => {
       notConnected.classList.remove('hidden');
       notConnected.classList.add('show-not-connected');
       section2.classList.add('show-section2');
+      section3.classList.add('show-section3');
+      section4.classList.add('show-section4');
+      section5.classList.add('show-section5');
+      section6.classList.add('show-section6');
+
     };
   } else if (accounts && accounts.length > 0) {
     onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
@@ -84,6 +93,10 @@ const updateConnectStatus = async () => {
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
     section2.classList.add('hidden');
+    section3.classList.add('hidden');
+    section4.classList.add('hidden');
+    section5.classList.add('hidden');
+    section6.classList.add('hidden');
     // SHOW SPINNER
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
@@ -96,6 +109,11 @@ const updateConnectStatus = async () => {
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
     section2.classList.add('show-section2');
+    section3.classList.add('show-section3');
+    section4.classList.add('show-section4');
+    section5.classList.add('show-section5');
+    section6.classList.add('show-section6');
+
     onboardButton.onclick = async () => {
       await window.ethereum
         .request({
@@ -106,6 +124,10 @@ const updateConnectStatus = async () => {
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
           section2.classList.add('hidden');
+          section3.classList.add('hidden');
+          section4.classList.add('hidden');
+          section5.classList.add('hidden');
+          section6.classList.add('hidden');
           // SHOW SPINNER
           spinner.classList.remove('hidden');
           onboardButton.disabled = true;
