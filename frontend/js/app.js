@@ -58,7 +58,7 @@ const updateConnectStatus = async () => {
   const section4 = document.querySelector('.section4');
   const section5 = document.querySelector('.section5');
   const section6 = document.querySelector('.section6');
-  const container = document.querySelector('.container');
+  const container2 = document.querySelector('.container2');
   const spinner = document.getElementById("spinner");
 
 
@@ -66,7 +66,7 @@ const updateConnectStatus = async () => {
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
       spinner.classList.add('hidden');
-      container.classList.add('hidden');
+      container2.classList.add('hidden');
       notConnected.classList.add('show-not-connected');
       section2.classList.add('show-section2');
       section3.classList.add('show-section3');
@@ -82,7 +82,7 @@ const updateConnectStatus = async () => {
       onboarding.startOnboarding();
       // HIDE SPINNER
       spinner.classList.add('hidden');
-      container.classList.add('hidden');
+      container2.classList.add('hidden');
       notConnected.classList.remove('hidden');
       notConnected.classList.add('show-not-connected');
       section2.classList.add('show-section2');
@@ -113,7 +113,7 @@ const updateConnectStatus = async () => {
     onboardButton.innerText = "Connect MetaMask!";
     // HIDE SPINNER
     spinner.classList.add('hidden');
-    container.classList.add('hidden');
+    container2.classList.add('hidden');
     notConnected.classList.remove('hidden');
     notConnected.classList.add('show-not-connected');
     section2.classList.add('show-section2');
