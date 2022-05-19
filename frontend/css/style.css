@@ -87,6 +87,9 @@ img{
 header {
   background-color: var(--bg-color);
   box-shadow: var(--header-shadow);
+  position: sticky;
+  width: 100%;
+  top: 0px;
 }
 
 header .container2 {
