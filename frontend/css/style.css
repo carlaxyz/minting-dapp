@@ -110,7 +110,7 @@ header .container2 {
   /*height: 100%;*/
   text-align: center;
   opacity: 0;
-  padding: 5%;
+  padding: 20%;
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   /*background-color: var(--bg-color);*/
@@ -624,7 +624,7 @@ section {
   .not-connected {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
-    padding: 2rem;
+    /*padding: 2rem;*/
     margin: 0 auto;
   }
   .countdown ul {
