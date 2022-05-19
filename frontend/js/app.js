@@ -60,12 +60,13 @@ const updateConnectStatus = async () => {
 
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
+    notConnected.classList.add('show-not-connected');
+section2.classList.add('show-section2');
     onboardButton.onclick = () => {
       onboardButton.innerText = "Connecting...";
       onboardButton.disabled = true;
       
-notConnected.classList.add('show-not-connected');
-section2.classList.add('show-section2');
+
       onboarding.startOnboarding();
       // HIDE SPINNER
       spinner.classList.add('hidden');
