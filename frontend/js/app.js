@@ -54,6 +54,10 @@ const updateConnectStatus = async () => {
   const onboardButton = document.getElementById("connectWallet");
   const notConnected = document.querySelector('.not-connected');
   const section2 = document.querySelector('.section2');
+  const section3 = document.querySelector('.section3');
+  const section4 = document.querySelector('.section4');
+  const section5 = document.querySelector('.section5');
+  const section6 = document.querySelector('.section6');
   const spinner = document.getElementById("spinner");
 
 
