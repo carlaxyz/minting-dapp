@@ -48,8 +48,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 });
 
-notConnected.classList.add('show-not-connected');
-section2.classList.add('show-section2');
 
 const updateConnectStatus = async () => {
   const onboarding = new MetaMaskOnboarding();
@@ -65,6 +63,9 @@ const updateConnectStatus = async () => {
     onboardButton.onclick = () => {
       onboardButton.innerText = "Connecting...";
       onboardButton.disabled = true;
+      
+notConnected.classList.add('show-not-connected');
+section2.classList.add('show-section2');
       onboarding.startOnboarding();
       // HIDE SPINNER
       spinner.classList.add('hidden');
@@ -84,6 +85,7 @@ const updateConnectStatus = async () => {
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
+    
   } else {
     onboardButton.innerText = "Connect MetaMask!";
     // HIDE SPINNER
