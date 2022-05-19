@@ -97,6 +97,7 @@ const updateConnectStatus = async () => {
     window.address = accounts[0];
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
+    container2.classList.remove('hidden');
     notConnected.classList.remove('show-not-connected');
     notConnected.classList.add('hidden');
     section2.classList.add('hidden');
@@ -129,6 +130,7 @@ const updateConnectStatus = async () => {
         })
         .then(function (accts) {
           onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
+          container2.classList.remove('hidden');
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
           section2.classList.add('hidden');
