@@ -24,7 +24,7 @@
 }
 
 body {
-  background-image:url('/images/slider/0.gif'); background-repeat:no-repeat;
+  background-image:url('/images/background/background1.png'); background-repeat:no-repeat;
   /*background-color: var(--bg-color);*/
   display: flex;
   background-size: cover;
