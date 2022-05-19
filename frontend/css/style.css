@@ -46,16 +46,6 @@ body {
   overflow: clip;
 }
 
-.containerH {
-  display: flex;
-  flex-direction: column;
-  max-width: none;
-  /*max-width: 960px;*/
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  justify-content: center;
-  overflow: clip;
-}
 
 .container2 {
   display: flex;
