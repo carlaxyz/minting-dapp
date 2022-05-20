@@ -52,9 +52,9 @@ img{
 
 .leftposition {
   position: absolute;
-  top: 0%;
+  /*top: 0%;*/
   left: 70%;
-  transform: translate(-50%, -50%);
+  /*transform: translate(-50%, -50%);*/
 }
 
 .container {
