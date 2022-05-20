@@ -66,6 +66,7 @@ img{
   padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
+  position:relative;
 }
 
 .containerH {
