@@ -200,9 +200,9 @@ header .container2 {
 }
 
 .section2 p {
-  font-size: 1.1rem;
+  font-size: 3.1rem;
   font-family: var(--font-primary);
-  line-height: 3.0;
+  line-height: 1.0;
 }
 
 .section2 a {
