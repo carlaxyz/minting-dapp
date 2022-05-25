@@ -57,6 +57,13 @@ img{
   transform: translate(-50%);
 }
 
+.rightposition {
+  position: absolute;
+  /*top: 20%;*/
+  right: 70%;
+  transform: translate(100%);
+}
+
 .container {
   display: flex;
   flex-direction: column;
