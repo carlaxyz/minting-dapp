@@ -59,6 +59,7 @@ img{
 
 .rightposition {
   position: absolute;
+  display:flex;
   /*top: 20%;*/
   right: 70%;
   transform: translate(50%);
