@@ -48,6 +48,10 @@ img{
   max-width: 100%;
 }
 
+#img1{
+  margin-left: -30%;
+}
+
 
 .leftposition {
   position: absolute;
