@@ -135,8 +135,8 @@ header .container2 {
   padding: 20%;
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
-  /*background-color: var(--bg-color);*/
-  background: rgba(255, 0, 0, 1);
+  background-color: var(--bg-color);
+  /*background: rgba(255, 0, 0, 1);*/
   /*border-radius: 25px;*/
   max-width: 100%;/*900px;*/
   justify-content: center;
