@@ -9,7 +9,8 @@
   --font-secondary: "Poppins", sans-serif;
   --font-code: "Roboto", monospace;
   --bg-color: #e72828;
-  --bg-color-transparent: #00163f80;
+  --bg-color-transparent: #00000080;
+  --bg-color-white:#ffffff;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
   --accent-color: #dd3131;
@@ -177,7 +178,7 @@ header .container2 {
     /* transform: translateY(40%); */
     transition: all 1s ease-in-out;
     transition-delay: 0.5s;
-    background: rgba(240, 76, 76, 1);
+    background: var(--bg-color);
     /* border-radius: 25px; */
     max-width: 100%;
     display: flex;
@@ -203,6 +204,7 @@ header .container2 {
 .section2 p {
   font-size: 1.5rem;
   font-family: var(--font-primary);
+  color: var(--bg-color-transparent);
   line-height: 1.0;
 }
 
