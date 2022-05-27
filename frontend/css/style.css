@@ -64,7 +64,8 @@ img{
 
 #img4{
   position: absolute;
-  right: 60%;
+  right: 75%;
+  width: 30%;
 }
 
 #img5{
@@ -309,7 +310,7 @@ header .container2 {
   font-size: 2.8rem;
   letter-spacing: 1.5px;
   color:var(--bg-color-transparent);
-  margin-top: -8%;
+  margin-top: -6%;
   text-shadow: 2px 2px white;
 }
 
