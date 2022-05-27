@@ -63,7 +63,7 @@ img{
 }
 
 #img4{
-  position:absolute;
+  position:inherit;
   right: 40%;
   margin-top: -10%;
 }
