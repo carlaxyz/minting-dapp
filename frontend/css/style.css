@@ -62,7 +62,11 @@ img{
   display:none;
 }
 
-
+#img4{
+  position:absolute;
+  right: 40%;
+  margin-top: -10%;
+}
 
 .leftposition {
   position: absolute;
@@ -312,6 +316,8 @@ header .container2 {
   font-family: var(--font-secondary);
   line-height: 1.5;
   text-align: left;
+  margin-top: 15%;
+  position: absolute;
 }
 
 .section4 a {
