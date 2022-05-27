@@ -241,6 +241,7 @@ header .container2 {
   max-width: 100%;/*900px;*/
   justify-content: left;
   display: flex;
+  flex-direction:row;
   align-items: center;
   table-layout: fixed; width: 100%;
 }
@@ -715,6 +716,10 @@ section {
     text-align: center;
   }
 
+  .section3{
+    flex-direction:column;
+  }
+
   .rightposition{
     position: unset;
     left: 50%;
@@ -722,11 +727,12 @@ section {
   }
 
   #img2{
-    display:none;
+    display: none;
   }
 
   #img3{
-    display:block;
+    display: block;
+    width: 100%;
   }
   
 
