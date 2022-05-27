@@ -309,7 +309,8 @@ header .container2 {
 .section4 ul {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
-  line-height: 1.0;
+  line-height: 1.5;
+  text-align: left;
 }
 
 .section4 a {
