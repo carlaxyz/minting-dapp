@@ -58,6 +58,10 @@ img{
   width: 100%;
 }
 
+#img3{
+  display:none;
+}
+
 
 .leftposition {
   position: absolute;
@@ -642,6 +646,23 @@ section {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1111px){
+  .rightposition{
+    position: unset;
+    left: 50%;
+    transform: translate(0%);
+  }
+
+  #img2{
+    display:none;
+  }
+
+  #img3{
+    display:block;
+  }
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .menu {
