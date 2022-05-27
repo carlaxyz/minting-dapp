@@ -74,6 +74,10 @@ img{
   bottom: -10%;
 }
 
+#img6{
+  width: 100%;
+}
+
 .leftposition {
   position: absolute;
   /*top: 20%;*/
@@ -361,6 +365,25 @@ header .container2 {
   color: var(--accent-color);
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+.section5 {
+  align-items: start;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  /*padding: 5%;
+  transform: translateY(40%);*/
+  transition: all 1s ease-in-out;
+  transition-delay: 0.5s;
+  background: rgba(58, 0, 0, 1);
+  /*border-radius: 25px;*/
+  max-width: 100%;/*900px;*/
+  justify-content: left;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  table-layout: fixed; width: 100%;
 }
 
 
