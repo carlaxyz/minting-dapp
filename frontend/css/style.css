@@ -708,8 +708,8 @@ section {
   
   #img4{
     position: inherit;
-    right: -35%;
-    top: 5%;
+    right: 0%;
+    width: 100%;
   }
 
   #img5{
