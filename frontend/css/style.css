@@ -306,7 +306,7 @@ header .container2 {
   color:var(--bg-color-transparent);
 }
 
-.section4 p {
+.section4 ul {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   line-height: 1.0;
