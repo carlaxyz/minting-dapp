@@ -51,7 +51,7 @@ img{
 
 #img1{
   margin-left: -60%;
-  width: 100%;
+  width: 50%;
 }
 
 #img2{
@@ -64,7 +64,7 @@ img{
 
 #img4{
   position: absolute;
-  right: 0%;
+  right: 60%;
 }
 
 #img5{
@@ -659,10 +659,6 @@ section {
     font-size: 13px;
   }
 
-  #img1 {
-    margin-left: 0%;
-  }
-
   .leftposition {
     position: unset;
     /*top: 20%;*/
@@ -693,6 +689,11 @@ section {
     left: 50%;
     margin-top: -30%;
     transform: translate(0%);
+  }
+
+  #img1 {
+    margin-left: 0%;
+    width: 100%;
   }
 
   #img2{
