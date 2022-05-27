@@ -723,6 +723,7 @@ section {
   .rightposition{
     position: unset;
     left: 50%;
+    margin-top: -30%;
     transform: translate(0%);
   }
 
