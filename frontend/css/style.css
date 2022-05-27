@@ -54,6 +54,11 @@ img{
   width: 50%;
 }
 
+#img2{
+  margin-left: -60%;
+  width: 50%;
+}
+
 
 .leftposition {
   position: absolute;
@@ -64,7 +69,6 @@ img{
 
 .rightposition {
   position: absolute;
-  height: auto;
   /*top: 20%;*/
   right: 70%;
   transform: translate(50%);
