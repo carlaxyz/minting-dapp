@@ -70,8 +70,9 @@ img{
 
 #img5{
   position: absolute;
-  left: 70%;
-  bottom: -10%;
+  left: 65%;
+  bottom: -5%;
+  
 }
 
 #img6{
@@ -775,6 +776,7 @@ section {
   #img5{
     position: inherit;
     left: 0%;
+    width:100%;
   }
 
 }
