@@ -231,7 +231,8 @@ header .container2 {
   transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   transition-delay: 0.5s;
-  background: rgba(58, 0, 0, 1);
+  background-image:url('/images/background/BGthirdsection.png'); background-repeat:no-repeat;
+  /*background: rgba(58, 0, 0, 1);*/
   /*border-radius: 25px;*/
   max-width: 100%;/*900px;*/
   justify-content: left;
