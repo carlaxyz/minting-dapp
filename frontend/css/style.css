@@ -707,10 +707,23 @@ section {
     top: 5%;
   }
 
+  #img5{
+    position: absolute;
+    right: 40%;
+    top: 5%;
+  }
+
   .ul1{
     text-shadow: 2px 2px rgb(0 0 0);
   }
-  
+
+  .ul2{
+    text-shadow: 2px 2px rgb(0 0 0);
+  }
+
+  .ul3{
+    text-shadow: 2px 2px rgb(0 0 0);
+  }
 }
 
 /* UTILITIES */
