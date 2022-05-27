@@ -68,6 +68,12 @@ img{
   margin-top: -10%;
 }
 
+#img5{
+  position: absolute;
+  left: 70%;
+  bottom: -20%;
+}
+
 .leftposition {
   position: absolute;
   /*top: 20%;*/
@@ -325,8 +331,7 @@ header .container2 {
   font-family: var(--font-secondary);
   line-height: 1.5;
   text-align: left;
-  margin-top: 15%;
-  position: absolute;
+  position: inherit;
 }
 
 .section4 ul2 {
