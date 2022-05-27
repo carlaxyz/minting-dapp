@@ -310,7 +310,7 @@ header .container2 {
   color:var(--bg-color-transparent);
 }
 
-.seciton h2 {
+.section4 h2 {
   font-size: 1.5rem;
   letter-spacing: 1.5px;
   color:var(--bg-color-transparent);
@@ -698,7 +698,10 @@ section {
     width: 100%;
   }
   
-
+  #img4{
+    position: absolute;
+    right: 70%;
+  }
 
 }
 
