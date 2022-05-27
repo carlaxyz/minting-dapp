@@ -371,7 +371,7 @@ header .container2 {
   align-items: start;
   height: 100%;
   text-align: center;
-  opacity: 0;
+  opacity: 1;
   /*padding: 5%;
   transform: translateY(40%);*/
   transition: all 1s ease-in-out;
@@ -385,12 +385,6 @@ header .container2 {
   align-items: center;
   table-layout: fixed; width: 100%;
 }
-
-.show-section5 {
-  opacity: 1;
-  /*transform: translateY(50%);*/
-}
-
 
 /* BUTTONS */
 
