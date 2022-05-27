@@ -51,7 +51,7 @@ img{
 
 #img1{
   margin-left: -60%;
-  width: 50%;
+  width: 100%;
 }
 
 #img2{
@@ -63,8 +63,8 @@ img{
 }
 
 #img4{
-  position: absolute;
-  right: 70%;
+  position: inherit;
+  right: 0%;
 }
 
 #img5{
@@ -265,6 +265,7 @@ header .container2 {
   text-shadow: 2px 2px 0 var(--accent-color);
   margin: 2rem 0;
   font-size: 2.8rem;
+
 }
 
 .section3 p {
@@ -308,6 +309,8 @@ header .container2 {
   font-size: 2.8rem;
   letter-spacing: 1.5px;
   color:var(--bg-color-transparent);
+  margin-top: -8%;
+  text-shadow: 2px 2px white;
 }
 
 .section4 h2 {
@@ -713,17 +716,6 @@ section {
     bottom: -15%;
   }
 
-  .ul1{
-    text-shadow: 2px 2px rgb(0 0 0);
-  }
-
-  .ul2{
-    text-shadow: 2px 2px rgb(0 0 0);
-  }
-
-  .ul3{
-    text-shadow: 2px 2px rgb(0 0 0);
-  }
 }
 
 /* UTILITIES */
