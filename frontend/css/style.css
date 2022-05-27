@@ -69,8 +69,9 @@ img{
 .rightposition {
   position: absolute;
   /*top: 20%;*/
-  right: 70%;
-  transform: translate(50%);
+  right: 40%;
+  padding: 5%;
+  /*transform: translate(50%);*/
 }
 
 .container {
@@ -236,6 +237,7 @@ header .container2 {
   max-width: 100%;/*900px;*/
   justify-content: left;
   display: flex;
+  align-items: center;
   table-layout: fixed; width: 100%;
 }
 
