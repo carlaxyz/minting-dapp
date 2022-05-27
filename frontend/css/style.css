@@ -63,7 +63,7 @@ img{
 }
 
 #img4{
-  position: inherit;
+  position: absolute;
   right: 0%;
 }
 
@@ -705,7 +705,7 @@ section {
   }
   
   #img4{
-    position: absolute;
+    position: inherit;
     right: -35%;
     top: 5%;
   }
