@@ -9,7 +9,7 @@
   --font-secondary: "Poppins", sans-serif;
   --font-code: "Roboto", monospace;
   --bg-color: #e72828;
-  --bg-color-transparent: #00000080;
+  --bg-color-transparent: #2e2e2e;
   --bg-color-white:#ffffff;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
@@ -195,10 +195,12 @@ header .container2 {
 }
 
 .section2 h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
-  /*font-style: italic;*/
-  margin: 2rem 0;
+  /*text-shadow: 2px 2px 0 var(--accent-color);*/
+  /*font-style: italic;
+  margin: 2rem 0;*/
   font-size: 2.8rem;
+  letter-spacing: 1.5px;
+  color:var(--bg-color)
 }
 
 .section2 p {
@@ -206,6 +208,7 @@ header .container2 {
   font-family: var(--font-primary);
   color: var(--bg-color-transparent);
   line-height: 1.0;
+  letter-spacing: 0.1rem;
 }
 
 .section2 a {
@@ -691,6 +694,10 @@ section {
     transform: translate(0%);
   }
   
+  .section2 h1 {
+    text-align:center;
+  }
+
   .section2 p {
     font-size: 1.2rem;
     line-height: 1.3;
