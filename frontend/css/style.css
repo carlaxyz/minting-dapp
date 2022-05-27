@@ -386,7 +386,10 @@ header .container2 {
   table-layout: fixed; width: 100%;
 }
 
-
+.show-section5 {
+  opacity: 1;
+  /*transform: translateY(50%);*/
+}
 
 
 /* BUTTONS */
