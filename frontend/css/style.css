@@ -773,9 +773,8 @@ section {
   }
 
   #img5{
-    position: absolute;
-    left: 50%;
-    bottom: -15%;
+    position: inherit;
+    left: 0%;
   }
 
 }
