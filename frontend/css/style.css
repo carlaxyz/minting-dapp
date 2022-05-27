@@ -311,7 +311,16 @@ header .container2 {
   color:var(--bg-color-transparent);
 }
 
-.section4 ul {
+.section4 ul1 {
+  font-size: 1.1rem;
+  font-family: var(--font-secondary);
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 15%;
+  position: absolute;
+}
+
+.section4 ul2 {
   font-size: 1.1rem;
   font-family: var(--font-secondary);
   line-height: 1.5;
