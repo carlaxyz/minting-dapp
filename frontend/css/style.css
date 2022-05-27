@@ -720,6 +720,10 @@ section {
     flex-direction:column;
   }
 
+  .section3 p{
+    font-size: 1.2rem;
+  }
+
   .rightposition{
     position: unset;
     left: 50%;
