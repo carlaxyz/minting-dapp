@@ -709,8 +709,8 @@ section {
 
   #img5{
     position: absolute;
-    right: 40%;
-    top: 5%;
+    left: 50%;
+    bottom: -15%;
   }
 
   .ul1{
