@@ -73,9 +73,8 @@ const updateConnectStatus = async () => {
       section6.classList.add('show-section6');
 
     onboardButton.onclick = () => {
-      location.href = "/mint";
       onboardButton.innerText = "Mint a SUGAR";
-      onboardButton.disabled = true;
+      onboardButton.disabled = false;
       
 
       onboarding.startOnboarding();
@@ -92,7 +91,9 @@ const updateConnectStatus = async () => {
 
     };
   } else if (accounts && accounts.length > 0) {
-    onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
+    onboardButton.innerText = "Mint a SUGAR"
+    //onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
+    location.href = "/mint";
     window.address = accounts[0];
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
