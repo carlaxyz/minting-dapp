@@ -101,14 +101,14 @@ const updateConnectStatus = async () => {
     window.address = accounts[0];
     onboardButton.disabled = false;
     onboarding.stopOnboarding();
-    container2.classList.remove('hidden');
-    notConnected.classList.remove('show-not-connected');
-    notConnected.classList.add('hidden');
-    section2.classList.add('hidden');
-    section3.classList.add('hidden');
-    section4.classList.add('hidden');
-    section5.classList.add('hidden');
-    section6.classList.add('hidden');
+    spinner.classList.add('hidden');
+    container2.classList.add('hidden');
+    notConnected.classList.add('show-not-connected');
+    section2.classList.add('show-section2');
+    section3.classList.add('show-section3');
+    section4.classList.add('show-section4');
+    section5.classList.add('show-section5');
+    section6.classList.add('show-section6');
     // SHOW SPINNER
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
