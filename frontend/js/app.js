@@ -93,9 +93,13 @@ const updateConnectStatus = async () => {
   } else if (accounts && accounts.length > 0) {
     onboardButton.innerText = "Mint a SUGAR"
     //onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
-    location.href = "/mint";
+    onboardButton.onclick = () => {
+      location.href = "/mint";
+    }
+    
+    
     window.address = accounts[0];
-    onboardButton.disabled = true;
+    onboardButton.disabled = false;
     onboarding.stopOnboarding();
     container2.classList.remove('hidden');
     notConnected.classList.remove('show-not-connected');
@@ -130,8 +134,11 @@ const updateConnectStatus = async () => {
         })
         .then(function (accts) {
           onboardButton.innerText = "Mint a SUGAR"
-          location.href = "/mint";
+            onboardButton.onclick = () => {
+              location.href = "/mint";
+              }
           //onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
+          onboardButton.disabled = false;
           container2.classList.remove('hidden');
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
