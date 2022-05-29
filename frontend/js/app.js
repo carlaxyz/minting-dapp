@@ -73,7 +73,7 @@ const updateConnectStatus = async () => {
       section6.classList.add('show-section6');
 
     onboardButton.onclick = () => {
-      onboardButton.innerText = "Mint a SUGAR";
+      onboardButton.innerText = "Connecting..";
       onboardButton.disabled = false;
       
 
@@ -129,7 +129,9 @@ const updateConnectStatus = async () => {
           method: "eth_requestAccounts",
         })
         .then(function (accts) {
-          onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
+          onboardButton.innerText = "Mint a SUGAR"
+          location.href = "/mint";
+          //onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
           container2.classList.remove('hidden');
           notConnected.classList.remove('show-not-connected');
           notConnected.classList.add('hidden');
