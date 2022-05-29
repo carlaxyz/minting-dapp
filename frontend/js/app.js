@@ -74,7 +74,7 @@ const updateConnectStatus = async () => {
 
     onboardButton.onclick = () => {
       location.href = "/mint";
-      onboardButton.innerText = "Connecting...";
+      onboardButton.innerText = "Mint a SUGAR";
       onboardButton.disabled = true;
       
 
