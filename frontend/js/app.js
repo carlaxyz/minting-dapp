@@ -74,7 +74,7 @@ const updateConnectStatus = async () => {
 
     onboardButton.onclick = () => {
       onboardButton.innerText = "Connecting..";
-      onboardButton.disabled = false;
+      onboardButton.disabled = true;
       
 
       onboarding.startOnboarding();
