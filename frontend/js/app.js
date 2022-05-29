@@ -61,7 +61,9 @@ const updateConnectStatus = async () => {
   const container2 = document.querySelector('.container2');
   const spinner = document.getElementById("spinner");
 
-
+  onboardButton.onclick = () => {
+    location.href = "/mint";
+  }
 
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
