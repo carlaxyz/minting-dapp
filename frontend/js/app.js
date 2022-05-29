@@ -61,10 +61,6 @@ const updateConnectStatus = async () => {
   const container2 = document.querySelector('.container2');
   const spinner = document.getElementById("spinner");
 
-  onboardButton.onclick = () => {
-    location.href = "/mint";
-  }
-
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
     onboardButton.innerText = "Install MetaMask!";
       spinner.classList.add('hidden');
@@ -77,6 +73,7 @@ const updateConnectStatus = async () => {
       section6.classList.add('show-section6');
 
     onboardButton.onclick = () => {
+      location.href = "/mint";
       onboardButton.innerText = "Connecting...";
       onboardButton.disabled = true;
       
