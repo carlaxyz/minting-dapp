@@ -427,6 +427,27 @@ header .container2 {
   color:var(--bg-color-white);
 }
 
+.section7 {
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  padding: 5%;
+  /*transform: translateY(40%);*/
+  transition: all 1s ease-in-out;
+  transition-delay: 0.5s;
+  background: rgb(0, 0, 0);
+  /*border-radius: 25px;*/
+  max-width: 100%;/*900px;*/
+  justify-content: center;
+  display: flex;
+  table-layout: fixed; width: 100%;
+}
+
+.show-section7 {
+  opacity: 1;
+  /*transform: translateY(50%);*/
+}
 
 /* BUTTONS */
 
