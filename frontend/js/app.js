@@ -58,6 +58,7 @@ const updateConnectStatus = async () => {
   const section4 = document.querySelector('.section4');
   const section5 = document.querySelector('.section5');
   const section6 = document.querySelector('.section6');
+  const section7 = document.querySelector('.section7');
   const container2 = document.querySelector('.container2');
   const spinner = document.getElementById("spinner");
 
@@ -71,6 +72,7 @@ const updateConnectStatus = async () => {
       section4.classList.add('show-section4');
       section5.classList.add('show-section5');
       section6.classList.add('show-section6');
+      section7.classList.add('show-section7');
 
     onboardButton.onclick = () => {
       onboardButton.innerText = "Connecting..";
@@ -88,6 +90,7 @@ const updateConnectStatus = async () => {
       section4.classList.add('show-section4');
       section5.classList.add('show-section5');
       section6.classList.add('show-section6');
+      section7.classList.add('show-section7');
 
     };
   } else if (accounts && accounts.length > 0) {
@@ -109,6 +112,7 @@ const updateConnectStatus = async () => {
     section4.classList.add('show-section4');
     section5.classList.add('show-section5');
     section6.classList.add('show-section6');
+    section7.classList.add('show-section7');
     // SHOW SPINNER
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
@@ -126,6 +130,7 @@ const updateConnectStatus = async () => {
     section4.classList.add('show-section4');
     section5.classList.add('show-section5');
     section6.classList.add('show-section6');
+    section7.classList.add('show-section7');
 
     onboardButton.onclick = async () => {
       await window.ethereum
@@ -147,6 +152,7 @@ const updateConnectStatus = async () => {
           section4.classList.add('show-section4');
           section5.classList.add('show-section5');
           section6.classList.add('show-section6');
+          section7.classList.add('show-section7');
           // SHOW SPINNER
           spinner.classList.remove('hidden');
           onboardButton.disabled = false;
