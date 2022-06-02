@@ -94,7 +94,7 @@ const updateConnectStatus = async () => {
 
     };
   } else if (accounts && accounts.length > 0) {
-    onboardButton.innerText = "Mint a SUGAR"
+    onboardButton.innerText = "Mint a SUGARX"
     //onboardButton.innerText = `✔ ...${accounts[0].slice(-4)}`;
     onboardButton.onclick = () => {
       location.href = "/mint";
@@ -138,7 +138,7 @@ const updateConnectStatus = async () => {
           method: "eth_requestAccounts",
         })
         .then(function (accts) {
-          onboardButton.innerText = "Mint a SUGAR"
+          onboardButton.innerText = "Mint a SUGARX"
             onboardButton.onclick = () => {
               location.href = "/mint";
               }
