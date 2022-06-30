@@ -75,7 +75,9 @@ img{
 }
 
 #logoimg{
-  
+  position: absolute;
+  top: 10%;
+  width: 10%;  
 }
 
 
@@ -800,6 +802,12 @@ section {
     width:100%;
   }
 
+  #logoimg{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    width: 20%;  
+  }
 }
 
 /* UTILITIES */
