@@ -74,6 +74,11 @@ img{
   
 }
 
+.logo {
+  position:absolute;
+  
+}
+
 
 .leftposition {
   position: absolute;
