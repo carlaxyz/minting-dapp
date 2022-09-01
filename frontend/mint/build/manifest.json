@@ -1,7 +1,7 @@
 {
-  "build/main.css": "/mint/build/main.css",
-  "build/main.js": "/mint/build/main.js",
-  "build/images/logo.png": "/mint/build/images/logo.png",
-  "build/images/fav.png": "/mint/build/images/fav.png",
-  "build/images/preview.png": "/mint/build/images/preview.png"
+  "build/main.css": "mint/build/main.css",
+  "build/main.js": "mint/build/main.js",
+  "build/images/logo.png": "mint/build/images/logo.png",
+  "build/images/fav.png": "mint/build/images/fav.png",
+  "build/images/preview.png": "mint/build/images/preview.png"
 }
