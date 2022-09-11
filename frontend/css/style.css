@@ -8,7 +8,7 @@
   --font-primary: "Koulen", Regular;
   --font-secondary: "Poppins", sans-serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #e72828;
+  --bg-color: #ff0039;
   --bg-color-transparent: #2e2e2e;
   --bg-color-white:#ffffff;
   --font-color: #ffffff;
@@ -301,7 +301,7 @@ header .container2 {
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   transition-delay: 0.5s;
-  background: rgba(255, 46, 46, 1);
+  background: #ff0039;
   /*border-radius: 25px;*/
   max-width: 100%;/*900px;*/
   justify-content: center;
@@ -402,7 +402,7 @@ header .container2 {
   /*transform: translateY(40%);*/
   transition: all 1s ease-in-out;
   transition-delay: 0.5s;
-  background: rgba(255, 46, 46, 1);
+  background: #ff0039;
   /*border-radius: 25px;*/
   max-width: 100%;/*900px;*/
   justify-content: center;
