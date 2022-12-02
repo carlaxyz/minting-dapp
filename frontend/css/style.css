@@ -469,9 +469,11 @@ header .container2 {
   position: relative;
   text-decoration: none;
   outline: none;
+  bottom: 4px;
 }
 .btn:hover {
   box-shadow: none;
+  color: var(--bg-color-transparent);
 }
 .btn:disabled {
   cursor: default;
