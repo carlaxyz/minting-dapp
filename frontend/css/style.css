@@ -478,6 +478,12 @@ header .container2 {
 }
 
 .wallet-btn {
+  /*border-radius: 5rem;*/
+  margin-left: 2rem;
+  border-color: transparent;
+}
+
+.designer-btn {
   border-radius: 5rem;
   margin-left: 2rem;
   border-color: transparent;
