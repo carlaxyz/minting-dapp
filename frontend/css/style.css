@@ -461,7 +461,7 @@ header .container2 {
   font-family: var(--font-secondary);
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: var(--header-shadow);
