@@ -455,7 +455,7 @@ header .container2 {
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  /*padding: 1rem 2rem;*/
   background: var(--btn-bg-color);
   color: var(--bg-color-white);
   font-family: var(--font-secondary);
