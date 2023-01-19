@@ -32,8 +32,13 @@
       var warningBanner = document.querySelector("#unity-warning");
       var myWidth = innerWidth;
       var myHeight = innerHeight;
-      document.getElementById("body").style.overflow = "hidden";
-      document.getElementById("body").style.backgroundColor = "black";
+     
+      function setOverflowandBG(){
+      elem = document.querySelector('.body');
+      elem.style.overflow = 'hidden';
+      elem.style.backgroundColor = 'black';
+      }
+      
       document.getElementById("unity-container").style.width = myWidth + "px";
       document.getElementById("unity-container").style.height = myHeight + "px";
       // Shows a temporary message banner/ribbon for a few seconds, or
