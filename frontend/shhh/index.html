@@ -7,7 +7,7 @@
     <link rel="icon" type="image/png" href="https://sugarcorex.com/images/x-icon/favicon-32x32.png">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
-  <body id="body">
+  <body id="body" style="background-color: black; overflow:hidden;">
     <div id="unity-container" style="width:100%; height: 100%;">
       <canvas id="unity-canvas" width=auto height=auto></canvas>
       <div id="unity-loading-bar">
@@ -33,12 +33,6 @@
       var myWidth = innerWidth;
       var myHeight = innerHeight;
      
-      function setOverflowandBG(){
-      elem = document.querySelector('.body');
-      elem.style.overflow = 'hidden';
-      elem.style.backgroundColor = 'black';
-      setOverflowandBG();
-      }
       
       document.getElementById("unity-container").style.width = myWidth + "px";
       document.getElementById("unity-container").style.height = myHeight + "px";
