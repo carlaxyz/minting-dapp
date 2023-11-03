@@ -1,0 +1,13 @@
+{
+  "name": "moecrew #874",
+  "description": "Welcome to moecrew, a sub metaverse of adorable anime chibis! moecrew is a kawaii collection of smartphone wallpaper cuties crafted by computer algorithm.",
+    "animation_url": "ipfs://QmVnzWub95tntSfpqWNbowdqjsMmgxgrDa1hWiUsbjwqRn/MoeCrewReveal3.mp4",
+  "image": "ipfs://QmVnzWub95tntSfpqWNbowdqjsMmgxgrDa1hWiUsbjwqRn/MoeCrewReveal3.gif",
+    "attributes": [
+    {
+      "trait_type": "moecrew",
+      "value": "Hidden"
+    }
+  ],
+
+}
